@@ -1,9 +1,9 @@
 public class PolyProto {
-    public static void main(String[] args) {
-        Animal myAnimal = new Dog(); // 多型
+    public static void main(String[] args) { // program entry point
+        Animal myAnimal = new Dog(); // Polymorphism
         myAnimal.makeSound();
 
-        myAnimal = new Cat(); // 多型
+        myAnimal = new Cat(); // Polymorphism
         myAnimal.makeSound();
     }
 }
